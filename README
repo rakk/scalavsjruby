@@ -1,0 +1,38 @@
+==========================================================
+  Overview:
+==========================================================
+    TODO
+
+
+==========================================================
+  Requirments:
+==========================================================
+    java:       1.6.x
+    maven:  >=  3.0.2
+
+
+==========================================================
+  Status:
+==========================================================
+    Quicksort is implemented in java, scala and jruby
+
+
+==========================================================
+  How to run:
+==========================================================
+
+    # before you need to install my fork version of
+    # jruby-maven-plugin:
+    git clone git://github.com/rakk/jruby-maven-plugins.git
+    cd jruby-maven-plugins
+    mvn clean install # it takes a while :(   
+
+    cd ..
+
+    git clone git://github.com/rakk/scalavsjruby.git
+    cd scalavsjruby
+    mvn clean install # it takes a while :(
+
+    # turn off all java processes...
+    ./run.sh
+

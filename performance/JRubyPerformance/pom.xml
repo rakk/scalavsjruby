@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>scalavsjruby-performance</artifactId>
+    <groupId>scalavsjruby.performance</groupId>
+    <version>1.0</version>
+  </parent>
+  <groupId>scalavsjruby.performance.jrubyperformance</groupId>
+  <artifactId>JRubyPerformance</artifactId>
+  <version>1.0</version>
+  <name>JRubyPerformance</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jruby.version>1.6.0</jruby.version>
+    <jruby.plugins.version>0.27.0-SNAPSHOT</jruby.plugins.version>
+  </properties>
+  
+  <pluginRepositories>
+    <pluginRepository>
+      <id>rubygems-proxy</id>
+      <name>Rubygems Proxy</name>
+      <url>http://rubygems-proxy.torquebox.org/releases</url>
+      <layout>default</layout>
+        <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>fale</enabled>
+        <updatePolicy>never</updatePolicy>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <repositories>
+    <repository>
+      <id>rubygems-proxy</id>
+      <name>Rubygems Proxy</name>
+      <url>http://rubygems-proxy.torquebox.org/releases</url>
+      <layout>default</layout>
+        <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>fale</enabled>
+        <updatePolicy>never</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <dependencies>
+     <dependency>
+      <groupId>scalavsjruby.tools</groupId>
+      <artifactId>Tools</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>scalavsjruby.performance.performanceinterface</groupId>
+      <artifactId>PerformanceInterface</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>de.saumya.mojo</groupId>
+      <artifactId>jruby-maven-plugin</artifactId>
+      <version>${jruby.plugins.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jruby</groupId>
+      <artifactId>jruby</artifactId>
+      <version>${jruby.version}</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src/main/ruby</sourceDirectory>
+    <testSourceDirectory>src/test/ruby</testSourceDirectory>
+
+    <plugins>
+      <plugin>
+        <groupId>de.saumya.mojo</groupId>
+        <artifactId>jruby-maven-plugin</artifactId>
+	<version>${jruby.plugins.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <fork>false</fork>
+          <sourceDir>src/main/ruby</sourceDir>
+          <jvmArgs>
+            <jvmArg>-Xms64m</jvmArg>
+            <jvmArg>-Xmx1024m</jvmArg>
+          </jvmArgs>
+        </configuration>
+      </plugin>
+      <!-- rspec-maven-plugin -->
+      <plugin>
+        <groupId>de.saumya.mojo</groupId>
+        <artifactId>rspec-maven-plugin</artifactId>
+        <version>${jruby.plugins.version}</version>
+        <configuration>
+          <specSourceDirectory>src/test/spec</specSourceDirectory>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>test</goal>
+            </goals>
+          </execution>
+        </executions>
+        <dependencies>
+          <dependency>
+            <groupId>rubygems</groupId>
+            <artifactId>rspec</artifactId>
+            <version>2.5.0</version>
+            <type>gem</type>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

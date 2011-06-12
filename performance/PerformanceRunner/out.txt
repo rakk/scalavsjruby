@@ -1,0 +1,406 @@
+
+===================================================
+  Sorting
+===================================================
+
+I'm going to kill all your java processes....
+ eg. hudson, netbeans, eclipse, tomcat
+Are you aware of that? (yes, no)
+...roger that...
+
+====== memory consuption... =======
+
+I'm going to kill java :)
+
+====== java =======
+
+Warning: JAVA_HOME environment variable is not set.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building PerformanceRunner 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner ---
+memory [0] [0] language=java
+Waiting 6 seconds
+......used memory:	6258008
+.memory [0] [400] language=java
+Waiting 6 seconds
+......used memory:	6265968
+.memory [0] [800] language=java
+Waiting 6 seconds
+......used memory:	6273968
+.memory [0] [1200] language=java
+Waiting 6 seconds
+......used memory:	6281968
+.memory [0] [1600] language=java
+Waiting 6 seconds
+......used memory:	6289968
+.memory [0] [2000] language=java
+Waiting 6 seconds
+......used memory:	6299144
+.memory [400] [0] language=java
+Waiting 6 seconds
+......used memory:	6266008
+.memory [400] [400] language=java
+Waiting 6 seconds
+......used memory:	17440704
+.memory [400] [800] language=java
+Waiting 6 seconds
+......used memory:	28499048
+.memory [400] [1200] language=java
+Waiting 6 seconds
+......used memory:	39856888
+.memory [400] [1600] language=java
+Waiting 6 seconds
+......used memory:	50940128
+.memory [400] [2000] language=java
+Waiting 6 seconds
+......used memory:	62691080
+.memory [800] [0] language=java
+Waiting 6 seconds
+......used memory:	6928360
+.memory [800] [400] language=java
+Waiting 6 seconds
+......used memory:	29372016
+.memory [800] [800] language=java
+Waiting 6 seconds
+......used memory:	51859824
+.memory [800] [1200] language=java
+Waiting 6 seconds
+......used memory:	73746448
+.memory [800] [1600] language=java
+Waiting 6 seconds
+......used memory:	95664408
+.memory [800] [2000] language=java
+Waiting 6 seconds
+......used memory:	118161016
+.memory [1200] [0] language=java
+Waiting 6 seconds
+......used memory:	6158296
+.memory [1200] [400] language=java
+Waiting 6 seconds
+......used memory:	40224184
+.memory [1200] [800] language=java
+Waiting 6 seconds
+......used memory:	74192456
+.memory [1200] [1200] language=java
+Waiting 6 seconds
+......used memory:	108351384
+.memory [1200] [1600] language=java
+Waiting 6 seconds
+......used memory:	141845976
+.memory [1200] [2000] language=java
+Waiting 6 seconds
+......used memory:	176182992
+.memory [1600] [0] language=java
+Waiting 6 seconds
+......used memory:	6442672
+.memory [1600] [400] language=java
+Waiting 6 seconds
+......used memory:	52631896
+.memory [1600] [800] language=java
+Waiting 6 seconds
+......used memory:	98203272
+.memory [1600] [1200] language=java
+Waiting 6 seconds
+......used memory:	143840224
+.memory [1600] [1600] language=java
+Waiting 6 seconds
+......used memory:	189027880
+.memory [1600] [2000] language=java
+Waiting 6 seconds
+......used memory:	235071256
+.memory [2000] [0] language=java
+Waiting 6 seconds
+......used memory:	6095736
+.memory [2000] [400] language=java
+Waiting 6 seconds
+......used memory:	64109080
+.memory [2000] [800] language=java
+Waiting 6 seconds
+......used memory:	121308504
+.memory [2000] [1200] language=java
+Waiting 6 seconds
+......used memory:	178707072
+.memory [2000] [1600] language=java
+Waiting 6 seconds
+......used memory:	235993712
+.memory [2000] [2000] language=java
+Waiting 6 seconds
+......used memory:	294381232
+.[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6:11.768s
+[INFO] Finished at: Sun Apr 17 17:33:23 CEST 2011
+[INFO] Final Memory: 5M/451M
+[INFO] ------------------------------------------------------------------------
+I'm going to kill java :)
+
+====== scala =======
+
+Warning: JAVA_HOME environment variable is not set.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building PerformanceRunner 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner ---
+memory [0] [0] language=scala
+Waiting 6 seconds
+......used memory:	5570288
+.memory [0] [400] language=scala
+Waiting 6 seconds
+......used memory:	5578456
+.memory [0] [800] language=scala
+Waiting 6 seconds
+......used memory:	5587120
+.memory [0] [1200] language=scala
+Waiting 6 seconds
+......used memory:	5595560
+.memory [0] [1600] language=scala
+Waiting 6 seconds
+......used memory:	5605024
+.memory [0] [2000] language=scala
+Waiting 6 seconds
+......used memory:	5611424
+.memory [400] [0] language=scala
+Waiting 6 seconds
+......used memory:	5578288
+.memory [400] [400] language=scala
+Waiting 6 seconds
+......used memory:	16912488
+.memory [400] [800] language=scala
+Waiting 6 seconds
+......used memory:	28109136
+.memory [400] [1200] language=scala
+Waiting 6 seconds
+......used memory:	39608576
+.memory [400] [1600] language=scala
+Waiting 6 seconds
+......used memory:	50880800
+.memory [400] [2000] language=scala
+Waiting 6 seconds
+......used memory:	62843080
+.memory [800] [0] language=scala
+Waiting 6 seconds
+......used memory:	7039224
+.memory [800] [400] language=scala
+Waiting 6 seconds
+......used memory:	29500776
+.memory [800] [800] language=scala
+Waiting 6 seconds
+......used memory:	52154200
+.memory [800] [1200] language=scala
+Waiting 6 seconds
+......used memory:	74306088
+.memory [800] [1600] language=scala
+Waiting 6 seconds
+......used memory:	95849424
+.memory [800] [2000] language=scala
+Waiting 6 seconds
+......used memory:	118779160
+.memory [1200] [0] language=scala
+Waiting 6 seconds
+......used memory:	6781256
+.memory [1200] [400] language=scala
+Waiting 6 seconds
+......used memory:	41312968
+.memory [1200] [800] language=scala
+Waiting 6 seconds
+......used memory:	74770944
+.memory [1200] [1200] language=scala
+Waiting 6 seconds
+......used memory:	107845424
+.memory [1200] [1600] language=scala
+Waiting 6 seconds
+......used memory:	141909488
+.memory [1200] [2000] language=scala
+Waiting 6 seconds
+......used memory:	176151912
+.memory [1600] [0] language=scala
+Waiting 6 seconds
+......used memory:	6370456
+.memory [1600] [400] language=scala
+Waiting 6 seconds
+......used memory:	52482608
+.memory [1600] [800] language=scala
+Waiting 6 seconds
+......used memory:	97940944
+.memory [1600] [1200] language=scala
+Waiting 6 seconds
+......used memory:	143982152
+.memory [1600] [1600] language=scala
+Waiting 6 seconds
+......used memory:	189040216
+.memory [1600] [2000] language=scala
+Waiting 6 seconds
+......used memory:	235061880
+.memory [2000] [0] language=scala
+Waiting 6 seconds
+......used memory:	6045224
+.memory [2000] [400] language=scala
+Waiting 6 seconds
+......used memory:	63935656
+.memory [2000] [800] language=scala
+Waiting 6 seconds
+......used memory:	121274872
+.memory [2000] [1200] language=scala
+Waiting 6 seconds
+......used memory:	178761816
+.memory [2000] [1600] language=scala
+Waiting 6 seconds
+......used memory:	235987040
+.memory [2000] [2000] language=scala
+Waiting 6 seconds
+......used memory:	294408408
+.[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6:12.709s
+[INFO] Finished at: Sun Apr 17 17:39:38 CEST 2011
+[INFO] Final Memory: 5M/451M
+[INFO] ------------------------------------------------------------------------
+I'm going to kill java :)
+
+====== jruby =======
+
+Warning: JAVA_HOME environment variable is not set.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building PerformanceRunner 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2:java (default-cli) @ PerformanceRunner ---
+memory [0] [0] language=ruby
+Waiting 6 seconds
+......used memory:	7813896
+.memory [0] [400] language=ruby
+Waiting 6 seconds
+......used memory:	7865760
+.memory [0] [800] language=ruby
+Waiting 6 seconds
+......used memory:	7911488
+.memory [0] [1200] language=ruby
+Waiting 6 seconds
+......used memory:	7957736
+.memory [0] [1600] language=ruby
+Waiting 6 seconds
+......used memory:	8005656
+.memory [0] [2000] language=ruby
+Waiting 6 seconds
+......used memory:	8052376
+.memory [400] [0] language=ruby
+Waiting 6 seconds
+......used memory:	7902896
+.memory [400] [400] language=ruby
+Waiting 6 seconds
+......used memory:	25409824
+.memory [400] [800] language=ruby
+Waiting 6 seconds
+......used memory:	41625056
+.memory [400] [1200] language=ruby
+Waiting 6 seconds
+......used memory:	57239040
+.memory [400] [1600] language=ruby
+Waiting 6 seconds
+......used memory:	73313704
+.memory [400] [2000] language=ruby
+Waiting 6 seconds
+......used memory:	90128632
+.memory [800] [0] language=ruby
+Waiting 6 seconds
+......used memory:	9517328
+.memory [800] [400] language=ruby
+Waiting 6 seconds
+......used memory:	41968312
+.memory [800] [800] language=ruby
+Waiting 6 seconds
+......used memory:	73322400
+.memory [800] [1200] language=ruby
+Waiting 6 seconds
+......used memory:	105129080
+.memory [800] [1600] language=ruby
+Waiting 6 seconds
+......used memory:	137479368
+.memory [800] [2000] language=ruby
+Waiting 6 seconds
+......used memory:	171135736
+.memory [1200] [0] language=ruby
+Waiting 6 seconds
+......used memory:	9400288
+.memory [1200] [400] language=ruby
+Waiting 6 seconds
+......used memory:	58083400
+.memory [1200] [800] language=ruby
+Waiting 6 seconds
+......used memory:	105256200
+.memory [1200] [1200] language=ruby
+Waiting 6 seconds
+......used memory:	153176016
+.memory [1200] [1600] language=ruby
+Waiting 6 seconds
+......used memory:	201899840
+.memory [1200] [2000] language=ruby
+Waiting 6 seconds
+......used memory:	251895488
+.memory [1600] [0] language=ruby
+Waiting 6 seconds
+......used memory:	9078528
+.memory [1600] [400] language=ruby
+Waiting 6 seconds
+......used memory:	73662816
+.memory [1600] [800] language=ruby
+Waiting 6 seconds
+......used memory:	136873392
+.memory [1600] [1200] language=ruby
+Waiting 6 seconds
+......used memory:	200797424
+.memory [1600] [1600] language=ruby
+Waiting 6 seconds
+......used memory:	265890160
+.memory [1600] [2000] language=ruby
+Waiting 6 seconds
+......used memory:	333167440
+.memory [2000] [0] language=ruby
+Waiting 6 seconds
+......used memory:	9175656
+.memory [2000] [400] language=ruby
+Waiting 6 seconds
+......used memory:	90074080
+.memory [2000] [800] language=ruby
+Waiting 6 seconds
+......used memory:	168867288
+.memory [2000] [1200] language=ruby
+Waiting 6 seconds
+......used memory:	248908832
+.memory [2000] [1600] language=ruby
+Waiting 6 seconds
+......used memory:	330336312
+.memory [2000] [2000] language=ruby
+Waiting 6 seconds
+......used memory:	412891552
+.[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9:41.005s
+[INFO] Finished at: Sun Apr 17 17:49:21 CEST 2011
+[INFO] Final Memory: 7M/483M
+[INFO] ------------------------------------------------------------------------
+I'm going to kill java :)
