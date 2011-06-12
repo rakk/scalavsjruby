@@ -1,0 +1,10 @@
+performance/PerformanceInterface/target/
+performance/PerformanceRunner/target/
+performance/ScalaPerformance/target/
+performance/JRubyPerformance/target/
+performance/JavaPerformance/target/
+tools/Tools/target/
+.metadata/
+.classpath
+.project
+
